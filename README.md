@@ -1,4 +1,4 @@
-# NixOS Configuration for GPD WIN MAX 2 2025
+# NixOS Configuration for My GPD WIN MAX 2 2025
 
 ## Initial Setup
 
