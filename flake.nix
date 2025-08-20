@@ -18,6 +18,7 @@
       nixosConfigurations = {
         nixos = nixpkgs.lib.nixosSystem {
           inherit system;
+          specialArgs = { inherit pkgsUnstable; };
           modules = [
             ./configuration.nix
             home-manager.nixosModules.home-manager

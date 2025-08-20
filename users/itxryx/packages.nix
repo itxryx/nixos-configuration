@@ -65,5 +65,8 @@
     # AI/ML tools
     lmstudio          # Desktop app for local LLMs
     ollama            # CLI for running local LLMs
+  ] ++ [
+    # Packages from unstable channel
+    pkgsUnstable.claude-code  # AI coding assistant CLI
   ];
 }
